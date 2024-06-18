@@ -1,5 +1,5 @@
 .chatbot-container {
-  background-color: #ffffff;
+  background-color: #eeffff;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -21,12 +21,18 @@
 }
 
 .message.user {
-  background-color: #e3f2fd;
-  align-self: flex-end;
+  background-color: #3e3d3d;
+  max-width: 50%;
+  text-align: left;
+  float: left;
+  font-family: 'Arial';
 }
 
 .message.bot {
-  background-color: #fce4ec;
+  background-color: #00bcd4;
+  max-width: 100%;
+  text-align: left;
+  float: right;
 }
 
 .chatbot-buttons button {
